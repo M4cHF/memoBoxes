@@ -1,0 +1,15 @@
+
+.navbar {
+    background-color: rgb(236, 234, 231)!important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-nav {
+    margin-left: 150;
+
+}
+
+ul li a {
+    margin-left: 50px;
+}
