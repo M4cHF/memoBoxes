@@ -1,0 +1,19 @@
+* {
+    background-color: rgb(28, 27, 27);
+    color: white;
+}
+
+.title {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+    font-size: 50px;
+}
+
+.description {
+    margin: 0;
+    text-align: center; 
+    padding: 30px 30px;
+
+}
+

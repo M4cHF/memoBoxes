@@ -1,15 +1,41 @@
 
-.navbar {
-    background-color: rgb(236, 234, 231)!important;
-    padding-left: 20px;
-    padding-right: 20px;
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
 }
 
-.navbar-nav {
-    margin-left: 150;
-
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 150px; 
 }
 
-ul li a {
-    margin-left: 50px;
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    position: relative; 
 }
+
+.nav-bar ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+}
+
+.nav-bar ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+
+
